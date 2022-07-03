@@ -1,0 +1,7 @@
+include *.csv
+include *.png
+include *.jpg
+include output
+include README.md
+include requirements.txt
+include setup.py

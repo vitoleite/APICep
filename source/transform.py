@@ -45,4 +45,6 @@ def saveTable():
     """
     Salva a tabela em formato CSV
     """
-    return apiList().to_csv('output/data.csv', index=False, sep=',', encoding='utf-8-sig')
+    return apiList().to_csv(
+        "output/data.csv", index=False, sep=",", encoding="utf-8-sig"
+    )
